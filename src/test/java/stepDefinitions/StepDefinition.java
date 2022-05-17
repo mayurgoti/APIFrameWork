@@ -40,8 +40,7 @@ public class StepDefinition extends Utils {
 		if(method.equalsIgnoreCase("POST"))
 			response = res.when().post(resourceAPI.getResource());
 			else if(method.equalsIgnoreCase("GET"))
-				response = res.when().get(resourceAPI.getResource());
-			
+				response = res.when().get(resourceAPI.getResource());		
 	}
 	
 	@Then("the API call is success with status code {int}")
