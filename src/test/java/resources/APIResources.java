@@ -9,6 +9,7 @@ public enum APIResources {
 	deletePlaceAPI("/maps/api/place/delete/json");
 
 	private String resource;
+	
 	APIResources(String resource) {
 	
 		this.resource = resource;

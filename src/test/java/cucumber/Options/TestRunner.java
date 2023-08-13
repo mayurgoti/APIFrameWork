@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
                  glue = {"stepDefinitions"},
                  plugin = {"pretty",
                  "json:target/jsonReports/cucumber-report.json",
-                 "html:target/jsonReports/cucumber.html"}
+                 "html:target/jsonReports/cucumber.html"},
+                 monochrome = true
                  )
 
 public class TestRunner {
